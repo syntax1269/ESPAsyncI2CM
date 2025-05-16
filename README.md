@@ -20,7 +20,13 @@ ESPAsyncI2CM is an asynchronous, non-blocking I2C master library optimized for E
 
 ---
 
+## Installing via Arduino IDE
+- In the Arduino IDE, go to Sketch > Include Library > Add .ZIP Library... and select the ZIP of the repo, or
+- Use Sketch > Include Library > Manage Libraries... , search for the library (if published to the Arduino Library Manager), or
+- Use Sketch > Include Library > Add Library from GitHub... (if using Arduino IDE 2.x).
 ## Initialization
+
+---
 
 ```cpp
 ESPAsyncI2CM i2c;
@@ -291,3 +297,4 @@ Pull requests and suggestions are welcome! Please provide example sketches and d
 For questions, bug reports, or feature requests, please open an issue or contact the maintainer.
 
 ---
+
